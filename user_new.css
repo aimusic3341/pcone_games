@@ -1,0 +1,75 @@
+.wrapper{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffd4c7;
+}
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-color: #FF5100;
+}
+.logo{
+	position: fixed;
+	top: 5px;
+	left: 150px;
+}
+.user_info{
+	background-color: #f8ff97;
+	position: fixed;
+	top: 44%;
+	left: 42%;
+	height: 160px;
+	width: 270px;
+	text-align: center;
+	border: 2px #b5431b dashed;
+	font-family: "Microsoft JhengHei";
+	font-size: 20px;
+	color: #ff341e;
+}
+.input_style{
+	background-color: #ffe6dc;
+	border: 2px #b5431b solid;
+	font-family: "Microsoft JhengHei";
+	font-size: 15px;
+	color: #ff341e;
+}
+.new_user_button{
+	position: relative;
+	left: 43%;
+	background-color: #ffe6dc;
+	border: 2px #b5431b solid;
+	font-family: "Microsoft JhengHei";
+	font-size: 15px;
+	font-weight: bold;
+	color: #ff341e;
+}
+.back_login_button{
+	position: relative;
+	left: -21%;
+	background-color: #ffe6dc;
+	border: 2px #b5431b solid;
+	font-family: "Microsoft JhengHei";
+	font-size: 15px;
+	font-weight: bold;
+	color: #ff341e;
+}
+.user_login_pic {
+	position: absolute;
+	height: 200px;
+	width: 600px;
+	top: 10%;
+	left: 31%;
+}
+.back{
+	position: fixed;
+	height: 60px;
+	width: 125px;
+	top: 76%;
+	left: 47%;
+}

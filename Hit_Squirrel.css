@@ -1,0 +1,148 @@
+.mouse
+{
+	cursor: pointer;
+}
+#Center{
+	margin-top:20px;
+}
+.wrapper{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffd4c7;
+}
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-color: #FF5100;
+}
+.logo{
+	position: fixed;
+	top: 5px;
+	left: 150px;
+}
+.logo_s{
+	position: fixed;
+	top: 28%;
+	left: 80%;
+	height: 250px;
+	width: 200px;
+}
+.rule{
+	position: fixed;
+	top: 66%;
+	left: 77%;
+	height: 130px;
+	width: 300px;
+}
+.ranking_pic{
+	position: fixed;
+	top: 28%;
+	left: 4%;
+	height: 90px;
+	width: 270px;
+}
+.ranking_table{
+	background-color: #f8ff97;
+	position: fixed;
+	top: 38%;
+	left: 4%;
+	height: 300px;
+	width: 270px;
+	border: 2px #b5431b solid;
+	text-align: center;
+	font-family: "Microsoft JhengHei";
+	font-size: 20px;
+	color: #ff341e;
+}
+.user_pic{
+	position: fixed;
+	left: 80%;
+	height: 40px;
+	width: 40px;
+}
+.user_ID{
+	position: fixed;
+	left: 83%;
+	top: -1.5%;
+	font-family: "Microsoft JhengHei";
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffe6dc;
+	z-index: 1;
+}
+.user_list{
+	position: fixed;
+	left: 77.5%;
+	top: -2%;
+	height: 50px;
+	width: 150px;
+	z-index: 2;
+}
+ul >li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+ul >li a{
+	display: block;
+	padding: 10px 20px;
+	background-color: black;
+	text-decoration: none;
+}
+ul li ul{
+	display: none;
+	float: left;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+ul li:hover > ul {
+	display: block;
+}
+ul li ul a{
+	width: 132px;
+	padding: 10px 12px;
+	color: #FF5100;
+	background: #FFFFFF;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+}
+ul li ul a:hover{
+	color: #FFF;
+	background: #FFA042;
+}
+.score{
+	 font-size: 22px;
+	 position: fixed;
+	 top: 10%;
+	 left: 41.5%;
+	 font-family: "Microsoft JhengHei";
+	 height: 35px;
+	 width: 250px;
+	 border: 2px #FF5100 dashed;
+
+	 opacity: 0.8;
+	 background-color: #f4ffdb;
+	 color: #FF5100;
+	 font-weight: bold;
+ }
+.time{
+	font-size: 22px;
+	position: fixed;
+	top: 5%;
+	left: 41.5%;
+	font-family: "Microsoft JhengHei";
+	height: 35px;
+	width: 250px;
+	border: 2px #FF5100 dashed;
+	opacity: 0.8;
+	background-color: #f4ffdb;
+	color: #FF5100;
+	font-weight: bold;
+}

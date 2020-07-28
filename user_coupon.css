@@ -1,0 +1,180 @@
+.wrapper{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffd4c7;
+}
+header{
+	position: absolute;
+	top: -8px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-color: #FF5100;
+}
+.logo{
+	position: absolute;
+	top: 5px;
+	left: 150px;
+}
+.user_pic{
+	position: absolute;
+	left: 80%;
+	height: 40px;
+	width: 40px;
+}
+.user_ID{
+	position: absolute;
+	left: 83%;
+	top: -23%;
+	font-family: "Microsoft JhengHei";
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffe6dc;
+	z-index: 1;
+}
+.user_list{
+	position: absolute;
+	left: 77.5%;
+	top: -37%;
+	height: 50px;
+	width: 144px;
+	z-index: 2;
+}
+ul >li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+ul >li a{
+	display: block;
+	padding: 10px 20px;
+	background-color: black;
+	text-decoration: none;
+}
+ul li ul{
+	display: none;
+	float: left;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+ul li:hover > ul {
+	display: block;
+}
+ul li ul a{
+	width: 132px;
+	padding: 10px 12px;
+	color: #FF5100;
+	background: #FFFFFF;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+}
+ul li ul a:hover{
+	color: #FFF;
+	background: #FFA042;
+}
+.title{
+	position: absolute;
+	left: 35%;
+	top: 9%;
+}
+table{
+	position: absolute;
+	top: 25%;
+	left: 28%;
+	height: 300px;
+	width: 500px;
+}
+.game_pic{
+	height: 100px;
+	width: 90px;
+}
+.coupon_pic{
+	height: 130px;
+	width: 500px;
+}
+.coupon_word1{
+	position: absolute;
+	top: 21.5%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_word1_1 {
+	position: absolute;
+	top: 59.5%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_word1_2 {
+	position: absolute;
+	top: 32.5%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_word2{
+	position: absolute;
+	top: 56%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_word2_2{
+	position: absolute;
+	top: 85.5%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_word3{
+	position: absolute;
+	color: ;
+	top: 91%;
+	left: 47.5%;
+	height: 20px;
+	width: 50px;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: #FF5100;
+}
+.coupon_zero {
+	position: absolute;
+	height: 100px;
+	width: 300px;
+	top: 43%;
+	left: 39%;
+}
+.back{
+	position: absolute;
+	height: 50px;
+	width: 125px;
+	top: 89%;
+	left: 45%;
+}
+.back_zero{
+	position: absolute;
+	height: 60px;
+	width: 125px;
+	top: 76%;
+	left: 44.5%;
+}

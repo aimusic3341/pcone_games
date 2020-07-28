@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加入會員</title>
+    <link rel="stylesheet" href="user_new.css" type="text/css">
+    <script>
+        function check_null()
+        {
+            if(document.user_new_info.ID.value == '' || document.user_new_info.password.value == '')
+            {
+                alert("請填入帳號及密碼!");
+                document.user_new_info.ID.focus();
+                return false;
+            }
+            else if(document.user_new_info.ID.value == '' && document.user_new_info.password.value == '')
+            {
+                alert("請填入帳號及密碼!");
+                document.user_new_info.ID.focus();
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="https://www.pcone.com.tw/">
+            <img src="logo_pc_180614.png" class="logo" id="pcone">
+        </a>
+    </header>
+    <main>
+        <div>
+            <img src="user_new.png" class="user_login_pic">
+        </div>
+        <form method="post" action="user_new.php" name="user_new_info" onsubmit="return check_null();">
+            <div class="user_info">
+                <p><label><strong>帳號：</strong></label><input type="text" name="ID" class="input_style"></p>
+                <p><label><strong>密碼：</strong></label><input type="password" name="password" class="input_style"></p>
+                <p><input type="submit" value="加入會員" class="new_user_button">
+                    <input type="button" onclick="javascript:location.href='user_login.html'" value="返回登入" class="back_login_button">
+                </p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <a href="homepage.php">
+            <img src="back_to_homepage.png" class="back">
+        </a>
+    </footer>
+</div>
+</body>
+</html>

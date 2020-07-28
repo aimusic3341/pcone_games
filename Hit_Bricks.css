@@ -1,0 +1,161 @@
+.wrapper{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffd4c7;
+}
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-color: #FF5100;
+}
+.logo{
+	position: fixed;
+	top: 5px;
+	left: 150px;
+}
+canvas{
+	position: fixed;
+	background-color: #ffb797;
+	display: block;
+	margin: 0 auto;
+	height: 480px;
+	width: 720px;
+	top: 15%;
+	left: 28%;
+	border:5px solid #FF5100;
+	z-index: 1;
+}
+.back{
+	position: fixed;
+	height: 60px;
+	width: 125px;
+	top: 87%;
+	left: 47%;
+}
+.start{
+	position: fixed;
+	height: 60px;
+	width: 125px;
+	top: 45%;
+	left: 47.25%;
+	border: 2px #b5431b dotted;
+	font-family: "Microsoft JhengHei";
+	background-color: white;
+	opacity: 0.8;
+	color: #FF5100;
+	z-index: 1;
+	font-size: 35px;
+}
+.ranking_pic{
+	position: fixed;
+	top: 22%;
+	left: 5%;
+	height: 90px;
+	width: 270px;
+}
+table{
+	background-color: #f8ff97;
+	position: fixed;
+	top: 32%;
+	left: 5%;
+	height: 300px;
+	width: 270px;
+	border: 2px #b5431b solid;
+	text-align: center;
+	font-family: "Microsoft JhengHei";
+	font-size: 20px;
+	color: #ff341e;
+}
+.logo_s{
+	position: fixed;
+	top: 22%;
+	left: 80%;
+	height: 250px;
+	width: 200px;
+}
+.rule{
+	position: fixed;
+	top: 60%;
+	left: 78%;
+	height: 120px;
+	width: 250px;
+}
+.score{
+	font-size: 25px;
+	position: fixed;
+	top: 4%;
+	left: 43%;
+	font-family: "Microsoft JhengHei";
+	z-index: 1;
+	height: 35px;
+	width: 250px;
+	border: 2px #FF5100 dashed;
+	text-align: center;
+	opacity: 0.8;
+	background-color: #f4ffdb;
+	color: #FF5100;
+	font-weight: bold;
+}
+.user_pic{
+	position: fixed;
+	left: 80%;
+	height: 40px;
+	width: 40px;
+}
+.user_ID{
+	position: fixed;
+	left: 83%;
+	top: -1.5%;
+	font-family: "Microsoft JhengHei";
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffe6dc;
+	z-index: 1;
+}
+.user_list{
+	position: fixed;
+	left: 77.5%;
+	top: -2%;
+	height: 50px;
+	width: 150px;
+	z-index: 2;
+}
+ul >li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+ul >li a{
+	display: block;
+	padding: 10px 20px;
+	background-color: black;
+	text-decoration: none;
+}
+ul li ul{
+	display: none;
+	float: left;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+ul li:hover > ul {
+	display: block;
+}
+ul li ul a{
+	width: 132px;
+	padding: 10px 12px;
+	color: #FF5100;
+	background: #FFFFFF;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+}
+ul li ul a:hover{
+	color: #FFF;
+	background: #FFA042;
+}

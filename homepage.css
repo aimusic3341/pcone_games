@@ -1,0 +1,181 @@
+.wrapper{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: #ffd4c7;
+}
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 40px;
+	background-color: #FF5100;
+}
+.logo{
+	position: fixed;
+	top: 5px;
+	left: 150px;
+}
+.button1{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	top: 30%;
+	left: 15%;
+	z-index: 1;
+}
+.hit_squirrel{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 33%;
+	left: 17%;
+	z-index: 2;
+}
+.hit_squirrel_word{
+	position: absolute;
+	height: 125px;
+	width: 250px;
+	top: 15%;
+	left: 15%;
+	z-index: 1;
+}
+.button2{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	top: 30%;
+	left: 41.5%;
+	z-index: 1;
+}
+.squirrel_128{
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	top: 33%;
+	left: 43%;
+	z-index: 2;
+}
+.squirrel_128_word{
+	position: absolute;
+	height: 130px;
+	width: 260px;
+	top: 15%;
+	left: 41.5%;
+	z-index: 1;
+}
+.button3{
+	position: absolute;
+	height: 250px;
+	width: 250px;
+	top: 30%;
+	left: 68%;
+	z-index: 1;
+}
+.hit_bricks{
+	position: absolute;
+	height: 150px;
+	width: 200px;
+	top: 38%;
+	left: 69.5%;
+	z-index: 2;
+}
+.hit_bricks_word{
+	position: absolute;
+	height: 130px;
+	width: 260px;
+	top: 15%;
+	left: 67.5%;
+	z-index: 1;
+}
+.welcome{
+	position: absolute;
+	height: 125px;
+	width: 600px;
+	top: 73%;
+	left: 29%;
+}
+.squirrel_1{
+	position: absolute;
+	height: 160px;
+	width: 200px;
+	top: 70%;
+	left: 72%;
+}
+.squirrel_2{
+	position: absolute;
+	height: 160px;
+	width: 180px;
+	top: 70%;
+	left: 15%;
+}
+.user_pic{
+	position: fixed;
+	left: 80%;
+	height: 40px;
+	width: 40px;
+}
+.user_ID{
+	position: fixed;
+	left: 83%;
+	top: -1.5%;
+	font-family: "Microsoft JhengHei";
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffe6dc;
+	z-index: 1;
+}
+.user_coupon{
+	position: fixed;
+	left: 80%;
+	top: -1.5%;
+	background-color: white;
+	opacity: 0;
+	height: 50px;
+	width: 165px;
+	z-index: 2;
+}
+.user_list{
+	position: fixed;
+	left: 77.5%;
+	top: -2%;
+	height: 50px;
+	width: 150px;
+	z-index: 2;
+}
+ul >li{
+	position: relative;
+	float: left;
+	list-style: none;
+}
+ul >li a{
+	display: block;
+	padding: 10px 20px;
+	background-color: black;
+	text-decoration: none;
+}
+ul li ul{
+	display: none;
+	float: left;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+ul li:hover > ul {
+	display: block;
+}
+ul li ul a{
+	width: 132px;
+	padding: 10px 12px;
+	color: #FF5100;
+	background: #FFFFFF;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+}
+ul li ul a:hover{
+	color: #FFF;
+	background: #FFA042;
+}
